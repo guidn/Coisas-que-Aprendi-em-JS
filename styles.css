@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Protest+Riot&display=swap');
+
+* {
+    font-size: 1.1em;
+    
+    text-decoration: none;
+}
+
+
+ /*  */
+
+
+body {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 6px ), repeating-linear-gradient( #888eff55, #888eff );    
+    text-align: center;
+}
+
+#Titulo {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 3.2em;
+}
+
+#legenda {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4em;
+}
+
+
+#opcoes {
+    text-align: center;
+    font-size: 1.8em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#opcoes1 {
+    font-family: 'Protest Riot', sans-serif;
+    padding: 18px 36px;
+    color: black;
+}
+
+#opcoes1:hover {
+    transition: ease-out 0.4s;
+    box-shadow: inset 400px 0 0 0 aquamarine;
+}
+
+ /* PAGINA CALCULADORA */
