@@ -40,6 +40,18 @@ function Multi() {
     return alert(resultado)
 }
 
+function CalcGoogle() {
+    var valor1 = document.getElementById("valor1").value
+    var opcao = document.getElementById("Selecione").value
+    if (opcao == "Temperatura") {
+        var resultado = (valor1 * 9/5) + 32
+    }
+    else if (opcao == "Comprimento") {
+        var resultado = (valor1 / 100)
+    }
+    return alert(resultado)
+}
+
 
 
 function Login() {
