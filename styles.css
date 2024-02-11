@@ -47,7 +47,7 @@ body {
 
 #opcoes1:hover {
     transition: ease-out 0.4s;
-    box-shadow: inset 400px 0 0 0 aquamarine;
+    box-shadow: inset 100vh 0 0 0 aquamarine;
 }
 
  /* PAGINA CALCULADORA */

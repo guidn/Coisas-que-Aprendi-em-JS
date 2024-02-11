@@ -43,11 +43,27 @@ function Multi() {
 function CalcGoogle() {
     var valor1 = document.getElementById("valor1").value
     var opcao = document.getElementById("Selecione").value
+
     if (opcao == "Temperatura") {
         var resultado = (valor1 * 9/5) + 32
     }
     else if (opcao == "Comprimento") {
         var resultado = (valor1 / 100)
+    }
+    else if (opcao == "Armazenamento de Dados" || opcao == "Transmissao de Dados") {
+        var resultado = (valor1 / 1000)
+    }
+    else if (opcao == "Tempo") {
+        var resultado = (valor1 / 60)
+    }
+    else if (opcao == "Massa") {
+        var resultado = (valor1 * 1000)
+    }
+    else if (opcao == "Energia Mecanica") {
+        var resultado = (valor1 / 3.6)
+    }
+    else if (opcao == "Consumo de Combustivel") {
+        var resultado = (valor1 * 2.352)
     }
     return alert(resultado)
 }
