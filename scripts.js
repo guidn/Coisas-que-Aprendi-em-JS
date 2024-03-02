@@ -81,6 +81,16 @@ function CalcGoogle() {
     return alert(resultado)
 }
 
+function buttonscalc() {
+    var valord = document.getElementById("exibir")
+    valord.setAttribute("value", "1")
+}
+
+function Innera() {
+    var valord = document.getElementById("exibir")
+    valorf = document.getElementById("exibir").value
+    valord.setAttribute("value", valorf)
+}
 
 
 function Login() {
