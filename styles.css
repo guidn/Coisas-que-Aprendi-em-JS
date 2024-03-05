@@ -57,3 +57,29 @@ body {
     display: grid;
 	grid-template-columns: auto auto auto auto auto auto auto;
 }
+
+#baseGame {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.tableGame {
+    width: 15vw;
+    height: 14vh;
+}
+
+#x1, #x2, #x3 {
+    border-bottom: 4px solid black;
+}
+
+#x4, #x5, #x6 {
+    border-bottom: 4px solid black;
+}
+#x1, #x4, #x7 {
+    border-right: 4px solid black;
+}
+
+#x3, #x6, #x9 {
+    border-left: 4px solid black;
+}

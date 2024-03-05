@@ -96,3 +96,29 @@ function Innera() {
 function Login() {
     return alert('Vc está logado')
 }
+
+
+var cliques = 1
+function jogoDaVelha() {
+    var XorO = 0;
+
+    var test = document.addEventListener("click", function id(e){
+        var idnew = "value" + e.target.id
+        document.removeEventListener("click", id)
+        document.getElementById(idnew).removeAttribute("hidden")
+
+        if (cliques === 1) {
+            console.log(idnew)
+            document.getElementById(idnew).innerHTML = "X"
+            cliques++
+        } else {
+            console.log(idnew)
+            document.getElementById(idnew).innerHTML = "O"
+            cliques--
+        }
+
+        console.log(cliques)
+    })
+
+    
+}
