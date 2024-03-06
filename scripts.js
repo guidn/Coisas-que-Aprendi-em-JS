@@ -116,9 +116,9 @@ function jogoDaVelha() {
             document.getElementById(idnew).innerHTML = "O"
             cliques--
         }
-
-        console.log(cliques)
     })
+    
+    
 
     
 }

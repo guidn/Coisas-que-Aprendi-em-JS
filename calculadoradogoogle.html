@@ -12,26 +12,42 @@
         <h1>Bem Vindo a Calculadora</h1>
     </div>
 
-    <div id="soma">
-        <select name="Temperatura" id="Selecione">
-            <option value="Armazenamento de Dados">Armazenamento de Dados / KB = MB</option>
-            <option value="Comprimento">Comprimento / CM = MT</option>
-            <option value="Consumo de Combustivel">Consumo de Combustivel / KmL = MiGalao</option>
-            <option value="Energia Mecanica">Energia Mecanica / Qj = W</option>
-            <option value="Frequencia">Frequencia / H = Kh</option>
-            <option value="Massa">Massa / Kg = g</option>
-            <option value="Pressao">Pressao / At = Bar</option>
-            <option value="Temperatura">Temperatura / F = C</option>
-            <option value="Tempo">Tempo / S = M</option>
-            <option value="Transmissao de Dados">Transmissao de Dados / KB = MB</option>
-            <option value="Velocidade">Velocidade / MT = KM</option>
-            <option value="Volume">Volume / L = Ml</option>
-            <option value="Area">Area / Km = M</option>
-            <option value="Angulo">Angulo / º = Radiano</option>
-        </select>
-
-        <input type="number" id="valor1" required>
-        <input type="button" value="Resultado" onclick="CalcGoogle()">
+    <div id="baseCalc">
+        <div id="soma">
+            <select name="Temperatura" id="Selecione">
+                <option value="Armazenamento de Dados">Armazenamento de Dados / KB = MB</option>
+                <option value="Comprimento">Comprimento / CM = MT</option>
+                <option value="Consumo de Combustivel">Consumo de Combustivel / KmL = MiGalao</option>
+                <option value="Energia Mecanica">Energia Mecanica / Qj = W</option>
+                <option value="Frequencia">Frequencia / H = Kh</option>
+                <option value="Massa">Massa / Kg = g</option>
+                <option value="Pressao">Pressao / At = Bar</option>
+                <option value="Temperatura">Temperatura / F = C</option>
+                <option value="Tempo">Tempo / S = M</option>
+                <option value="Transmissao de Dados">Transmissao de Dados / KB = MB</option>
+                <option value="Velocidade">Velocidade / MT = KM</option>
+                <option value="Volume">Volume / L = Ml</option>
+                <option value="Area">Area / Km = M</option>
+                <option value="Angulo">Angulo / º = Radiano</option>
+                
+            </select>
+        </div>
+    
+        <div>
+            <select name="forNumber1" id="selectNumber">
+                <option value="valoroption1">VALUE</option>
+            </select>
+            <input type="number" id="valor1" required>
+        </div>
+        =
+        <div>
+            <select name="forNumber2" id="selectnumber2">
+                <option value="valoroption1">VALUE</option>
+            </select>
+            <input type="number" id="valor2" required>
+        </div>
     </div>
+
+    <input type="button" value="Resultado" onclick="CalcGoogle()">
 </body>
 </html>
